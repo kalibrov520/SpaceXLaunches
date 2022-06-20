@@ -14,6 +14,7 @@
 		8E094D74285C8ACE00B06306 /* iosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E094D73285C8ACE00B06306 /* iosAppTests.swift */; };
 		8E094D7E285C8ACE00B06306 /* iosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E094D7D285C8ACE00B06306 /* iosAppUITests.swift */; };
 		8E094D80285C8ACE00B06306 /* iosAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E094D7F285C8ACE00B06306 /* iosAppUITestsLaunchTests.swift */; };
+		8E094D8F28606E1900B06306 /* RocketLaunchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E094D8E28606E1900B06306 /* RocketLaunchRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8E094D79285C8ACE00B06306 /* iosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E094D7D285C8ACE00B06306 /* iosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosAppUITests.swift; sourceTree = "<group>"; };
 		8E094D7F285C8ACE00B06306 /* iosAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E094D8E28606E1900B06306 /* RocketLaunchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketLaunchRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		8E094D61285C8ACD00B06306 /* iosApp */ = {
 			isa = PBXGroup;
 			children = (
+				8E094D8D28606DFF00B06306 /* Views */,
 				8E094D62285C8ACD00B06306 /* iosAppApp.swift */,
 				8E094D64285C8ACD00B06306 /* ContentView.swift */,
 				8E094D66285C8ACE00B06306 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				8E094D7F285C8ACE00B06306 /* iosAppUITestsLaunchTests.swift */,
 			);
 			path = iosAppUITests;
+			sourceTree = "<group>";
+		};
+		8E094D8D28606DFF00B06306 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E094D8E28606E1900B06306 /* RocketLaunchRow.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E094D8F28606E1900B06306 /* RocketLaunchRow.swift in Sources */,
 				8E094D65285C8ACD00B06306 /* ContentView.swift in Sources */,
 				8E094D63285C8ACD00B06306 /* iosAppApp.swift in Sources */,
 			);
